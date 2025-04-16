@@ -11,6 +11,9 @@ public class Main {
 
         // 예제 2: 동일한 경로에 있는 class는 import가 필요 없다.
          new User("a", 2);
+         User user1 = new User("b", 3);
+         System.out.println("외부 출력"+user1.name);
+         System.out.println("외부 출력"+user1.age);
 
          // 예제 1
 //        // 외부 클래스로 부터 Car타입의 인스턴스 생성
