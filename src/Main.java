@@ -6,6 +6,9 @@ class Car {
     }
 }
 
+// 외부 클래스 import
+
+
 public class Main {
     public static void main(String[] args) {
         // 외부 클래스로 부터 Car타입의 인스턴스 생성
