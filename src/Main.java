@@ -1,5 +1,6 @@
 import user.User;
 import user.UserHobby;
+//import user.*;
 import java.util.Arrays;
 import java.util.ArrayList;
 
@@ -13,21 +14,54 @@ class Car {
 public class Main {
     public static void main(String[] args) {
 
+
+        /*
+            객체지향
+            - 대단위 프로젝트에서 동일한 품질의 객체(인스턴스)를 대량 생산하기 위한 시스템적인 틀
+            - 웹에서의 인스턴스 예시 : 개별적인 게시글 (강제된 개별적 게시글 데이터 형식)
+            - 클래스 : 인스턴스 생성하는 시스템적인 틀
+            - 인터페이스 : 클래스의 형식을 강제하는 설계서 (인터페이스에 기술된 메서드는 실 클래스에 포함되어야 함)
+            - extends : 기존 클래스에 새로운 확장 클래스 연결
+            - override : 기존 클래스의 특정 메서드를 덮어쓰기
+
+         */
+
+
+
+
+        // 예제 6
+//        User user1 = new User("David", "abc@naver.com");
+//        user1.setName("Andy");
+//
+//        String userName = user1.getName();
+//        System.out.println(userName);
+//
+//        ArrayList<String> hobbies = new ArrayList<>(Arrays.asList("reading", "music", "drawing"));
+//        UserHobby user2 = new UserHobby("Emily","emily@naver.com", hobbies);
+//
+//        String userNameWidthHobbies = user2.getName();
+//        System.out.println(userNameWidthHobbies);
+
+
+
+
         // 예제 5 - 클래스 상속(확장)
         // 예제4
-        User user1 = new User("David", "abc@naver.com");
-        user1.setName("Andy");
-        String userName = user1.getName();
-        System.out.println(userName);
+//        User user1 = new User("David", "abc@naver.com");
+//        user1.setName("Andy");
+//        String userName = user1.getName();
+//        System.out.println(userName);
+//
+//        // Arrays.asList로 매개변수 한번에 입력
+//        ArrayList<String> hobbies = new ArrayList<>(Arrays.asList("reading", "music", "drawing"));
+//
+//        // UserHobby 확장 클래스의 세번째 인자값으로 취미 리스트 전달
+//        UserHobby user2 = new UserHobby("Emily","emily@naver.com", hobbies);
+//
+//        System.out.println(user2.getHobbies());
 
-        // Arrays.asList로 매개변수 한번에 입력
-        ArrayList<String> hobbies = new ArrayList<>(Arrays.asList("reading", "music", "drawing"));
 
-        // UserHobby 확장 클래스의 세번째 인자값으로 취미 리스트 전달
-        UserHobby user2 = new UserHobby("Emily","emily@naver.com", hobbies);
 
-        System.out.println("직접출력:" + user2);
-        System.out.println(user2.getHobbies());
 
 //        // 예제4 - Create, Read, Update, Delete
 //        // 클래스를 통해 초기 인스턴스 생성 (Create: 데이터 생성)

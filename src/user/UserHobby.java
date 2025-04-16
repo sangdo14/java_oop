@@ -24,4 +24,10 @@ public class UserHobby extends User{
     public void addHobby(String hobby){
         this.hobbies.add(hobby);
     }
+
+    //오버라이딩
+    @Override
+    public String getName(){
+        return super.getName() + "["+String.join(",",hobbies)+"]";
+    }
 }
