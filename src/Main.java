@@ -22,6 +22,11 @@ public class Main {
         userName = user1.getName();
         System.out.println(userName);
 
+        // 인스턴스 값 삭제 후 출력 (Delete)
+        user1.delAll();
+        System.out.println(user1.getName());
+        System.out.println(user1.getemail());
+
         // 예제3
 //        User user1 = new User();
 ////        System.out.println(user1.name);

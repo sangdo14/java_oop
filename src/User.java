@@ -15,7 +15,7 @@ public class User {
     public String getName(){
         return this.userid;
     }
-    public String getemial(){
+    public String getemail(){
         return this.email;
     }
 
@@ -25,5 +25,10 @@ public class User {
     }
     public void setEmail(String email){
         this.email = email;
+    }
+
+    public void delAll(){
+        this.userid = null;
+        this.email = null;
     }
 }
