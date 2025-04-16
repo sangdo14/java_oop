@@ -6,19 +6,21 @@ class Car {
     }
 }
 
-// 외부 클래스 import
-
-
 public class Main {
     public static void main(String[] args) {
-        // 외부 클래스로 부터 Car타입의 인스턴스 생성
-        Car myCar = new Car(); // 객체 생성
-        //인스턴스의 멤버변수에 값등록
-        myCar.color = "빨강";
 
-        // 인스턴스에 내장 메서드 호출
-        myCar.drive();
-        System.out.println(myCar.color);
+        // 예제 2: 동일한 경로에 있는 class는 import가 필요 없다.
+         new User("a", 2);
+
+         // 예제 1
+//        // 외부 클래스로 부터 Car타입의 인스턴스 생성
+//        Car myCar = new Car(); // 객체 생성
+//        //인스턴스의 멤버변수에 값등록
+//        myCar.color = "빨강";
+//
+//        // 인스턴스에 내장 메서드 호출
+//        myCar.drive();
+//        System.out.println(myCar.color);
 
     }
 }
