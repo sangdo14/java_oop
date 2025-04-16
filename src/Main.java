@@ -1,34 +1,41 @@
-// 외부 클래스 Car 생성
+import user.User;
+
 class Car {
     String color;
     void drive() {
         System.out.println("달립니다!");
     }
-}
+} // 외부 클래스 Car 생성
 
 public class Main {
     public static void main(String[] args) {
 
-        // 예제4 - Create, Read, Update, Delete
-        // 클래스를 통해 초기 인스턴스 생성 (Create: 데이터 생성)
-        User user1 = new User("David", "abc@naver.com");
+        // 예제 5 - 클래스 상속(확장)
 
-        // 초기 인스턴스 출력 (Read)
-        String userName = user1.getName();
-        System.out.println(userName);
 
-        // 인스턴스 값 변경 후 출력 (Update, Read)
-        user1.setName("Andy");
-        userName = user1.getName();
-        System.out.println(userName);
 
-        // 인스턴스 값 삭제 후 출력 (Delete)
-        user1.delAll();
-        System.out.println(user1.getName());
-        System.out.println(user1.getemail());
+//        // 예제4 - Create, Read, Update, Delete
+//        // 클래스를 통해 초기 인스턴스 생성 (Create: 데이터 생성)
+//        User user1 = new User("David", "abc@naver.com");
+//
+//        // 초기 인스턴스 출력 (Read)
+//        String userName = user1.getName();
+//        System.out.println(userName);
+//
+//        // 인스턴스 값 변경 후 출력 (Update, Read)
+//        user1.setName("Andy");
+//        userName = user1.getName();
+//        System.out.println(userName);
+//
+//        // 인스턴스 값 삭제 후 출력 (Delete)
+//        user1.delAll();
+//        System.out.println(user1.getName());
+//        System.out.println(user1.getemail());
+
+
 
         // 예제3
-//        User user1 = new User();
+//        User.User user1 = new User.User();
 ////        System.out.println(user1.name);
 //
 //        // setAge메서드로 내부 정본 변경 처리
@@ -43,8 +50,8 @@ public class Main {
 
 
         // 예제 2: 동일한 경로에 있는 class는 import가 필요 없다.
-//         new User("a", 2);
-//         User user1 = new User("b", 3);
+//         new User.User("a", 2);
+//         User.User user1 = new User.User("b", 3);
 //         System.out.println("외부 출력"+user1.name);
 //         System.out.println("외부 출력"+user1.age);
 
